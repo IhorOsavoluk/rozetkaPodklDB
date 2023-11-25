@@ -1,0 +1,24 @@
+version: "3.1"
+
+services:
+  db:
+    image: postgres
+    ports:
+      - 5453:5432
+    environment:
+      POSTGRES_PASSWORD: password1234
+      # POSTGRES_USER: user1234
+      # POSTGRES_DB: db1234  
+  api:
+    
+    build:
+      context: .
+    restart: on-failure
+    ports:
+     - 13000:3000
+
+networks:
+  default:
+    # Use a custom driver
+    driver: custom-driver-1
+      

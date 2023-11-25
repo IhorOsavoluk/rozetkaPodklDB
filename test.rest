@@ -1,0 +1,28 @@
+###
+GET http://localhost:13000/setup/
+
+###
+GET http://localhost:13000/
+
+###
+POST http://localhost:13000
+Content-Type: application/json
+
+{
+    "name": "сссс",
+    "location": "ааа"
+}
+
+
+
+###
+PUT  http://localhost:13000/7
+
+{
+    "name": "test",
+    "location": "test"
+}
+
+
+###
+DELETE http://localhost:13000/3

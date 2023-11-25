@@ -1,0 +1,32 @@
+{
+  "name": "rozetka",
+  "version": "1.0.0",
+  "description": "Rozetka clone (e-commerce)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IhorOsavoluk/Rozetka_clone_e-commerce.git"
+  },
+  "keywords": [
+    "123456789"
+  ],
+  "author": "Ihor Osavoluk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IhorOsavoluk/Rozetka_clone_e-commerce/issues"
+  },
+  "homepage": "https://github.com/IhorOsavoluk/Rozetka_clone_e-commerce#readme",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "express": "^4.18.2",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.10.3",
+    "nodemon": "^3.0.1"
+  }
+}
